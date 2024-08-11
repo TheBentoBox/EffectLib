@@ -76,7 +76,7 @@ public class BigBangEffect extends Effect {
 
     protected void detonate(Location location, Vector v) {
         if (location != null && location.getWorld() != null) {
-            final Firework firework = (Firework) location.getWorld().spawnEntity(location.add(v), EntityType.FIREWORK);
+            final Firework firework = (Firework) location.getWorld().spawnEntity(location.add(v), EntityType.FIREWORK_ROCKET);
             location.subtract(v);
             FireworkMeta meta = firework.getFireworkMeta();
             meta.setPower(0);

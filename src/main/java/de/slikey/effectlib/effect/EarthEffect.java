@@ -17,8 +17,8 @@ import de.slikey.effectlib.util.VectorUtils;
 
 public class EarthEffect extends Effect {
 
-    public Particle particleLand = Particle.VILLAGER_HAPPY;
-    public Particle particleOcean = Particle.DRIP_WATER;
+    public Particle particleLand = Particle.HAPPY_VILLAGER;
+    public Particle particleOcean = Particle.DRIPPING_WATER;
 
     public Color colorLand = null;
     public Color colorOcean = null;

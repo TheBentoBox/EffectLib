@@ -22,13 +22,13 @@ public class DnaEffect extends Effect {
     /**
      * Particle of base 1
      */
-    public Particle particleBase1 = Particle.WATER_WAKE;
+    public Particle particleBase1 = Particle.FISHING;
     public Color colorBase1 = null;
 
     /**
      * Particle of base 2
      */
-    public Particle particleBase2 = Particle.REDSTONE;
+    public Particle particleBase2 = Particle.DUST;
     public Color colorBase2 = null;
 
     /**

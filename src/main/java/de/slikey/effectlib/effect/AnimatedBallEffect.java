@@ -56,7 +56,7 @@ public class AnimatedBallEffect extends Effect {
     public AnimatedBallEffect(EffectManager effectManager) {
         super(effectManager);
         type = EffectType.REPEATING;
-        particle = Particle.SPELL_WITCH;
+        particle = Particle.WITCH;
         iterations = 500;
         period = 1;
     }

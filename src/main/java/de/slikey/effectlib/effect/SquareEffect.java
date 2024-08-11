@@ -39,7 +39,7 @@ public class SquareEffect extends Effect {
 	public SquareEffect(EffectManager effectManager) {
 		super(effectManager);
 		type = EffectType.REPEATING;
-		particle = Particle.SPELL_MOB;
+		particle = Particle.ENTITY_EFFECT;
 		iterations = 500;
 		period = 1;
 	}

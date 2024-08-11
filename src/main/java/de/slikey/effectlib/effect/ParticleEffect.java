@@ -11,7 +11,7 @@ public class ParticleEffect extends Effect {
     public ParticleEffect(EffectManager effectManager) {
         super(effectManager);
         type = EffectType.REPEATING;
-        particle = Particle.VILLAGER_ANGRY;
+        particle = Particle.ANGRY_VILLAGER;
         period = 1;
         iterations = 1;
     }

@@ -37,7 +37,7 @@ public class SphereEffect extends Effect {
     public SphereEffect(EffectManager effectManager) {
         super(effectManager);
         type = EffectType.REPEATING;
-        particle = Particle.SPELL_MOB;
+        particle = Particle.ENTITY_EFFECT;
         iterations = 500;
         period = 1;
     }

@@ -74,7 +74,7 @@ public class TextEffect extends Effect {
         super(effectManager);
         font = new Font("Tahoma", Font.PLAIN, 16);
         type = EffectType.REPEATING;
-        particle = Particle.FIREWORKS_SPARK;
+        particle = Particle.FIREWORK;
         period = 40;
         iterations = 20;
     }

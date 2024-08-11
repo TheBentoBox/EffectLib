@@ -11,8 +11,8 @@ import de.slikey.effectlib.util.RandomUtils;
 
 public class ExplodeEffect extends Effect {
 
-    public Particle particle1 = Particle.EXPLOSION_NORMAL;
-    public Particle particle2 = Particle.EXPLOSION_HUGE;
+    public Particle particle1 = Particle.POOF;
+    public Particle particle2 = Particle.EXPLOSION_EMITTER;
 
     /**
      * Amount of spawned smoke-sparks

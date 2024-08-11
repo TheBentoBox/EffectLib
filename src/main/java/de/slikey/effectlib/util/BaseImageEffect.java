@@ -110,7 +110,7 @@ public abstract class BaseImageEffect extends Effect {
         super(effectManager);
         type = EffectType.REPEATING;
         try {
-            particle = Particle.REDSTONE;
+            particle = Particle.DUST;
         } catch (IllegalArgumentException e) {
             particle = Particle.valueOf("DUST");
         }

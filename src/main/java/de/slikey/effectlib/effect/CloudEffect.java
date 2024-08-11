@@ -23,7 +23,7 @@ public class CloudEffect extends Effect {
     /**
      * Particle of the rain/snow
      */
-    public Particle mainParticle = Particle.DRIP_WATER;
+    public Particle mainParticle = Particle.DRIPPING_WATER;
     public int mainParticles = 15;
 
     /**

@@ -94,7 +94,7 @@ public class EquationEffect extends Effect {
     public EquationEffect(EffectManager effectManager) {
         super(effectManager);
         type = EffectType.REPEATING;
-        particle = Particle.REDSTONE;
+        particle = Particle.DUST;
         period = 1;
         iterations = 100;
     }

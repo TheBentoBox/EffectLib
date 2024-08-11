@@ -16,7 +16,7 @@ import de.slikey.effectlib.util.VectorUtils;
 
 public class WaveEffect extends Effect {
 
-    public Particle mainParticle = Particle.DRIP_WATER;
+    public Particle mainParticle = Particle.DRIPPING_WATER;
     public Particle cloudParticle = Particle.CLOUD;
     public Color cloudColor = null;
 

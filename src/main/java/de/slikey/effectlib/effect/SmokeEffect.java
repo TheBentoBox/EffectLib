@@ -18,7 +18,7 @@ public class SmokeEffect extends Effect {
     public SmokeEffect(EffectManager effectManager) {
         super(effectManager);
         type = EffectType.REPEATING;
-        particle = Particle.SMOKE_NORMAL;
+        particle = Particle.SMOKE;
         period = 1;
         iterations = 300;
     }

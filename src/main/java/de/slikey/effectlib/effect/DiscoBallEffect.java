@@ -30,7 +30,7 @@ public class DiscoBallEffect extends Effect {
      * Particle of the sphere and of the lines
      */
     public Particle sphereParticle = Particle.FLAME;
-    public Particle lineParticle = Particle.REDSTONE;
+    public Particle lineParticle = Particle.DUST;
 
     public Color sphereColor = null;
     public Color lineColor = null;

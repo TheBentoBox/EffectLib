@@ -54,7 +54,7 @@ public class FountainEffect extends Effect {
     public FountainEffect(EffectManager effectManager) {
         super(effectManager);
         type = EffectType.REPEATING;
-        particle = Particle.WATER_SPLASH;
+        particle = Particle.SPLASH;
         period = 2;
         iterations = 100;
     }

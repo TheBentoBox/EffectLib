@@ -16,13 +16,13 @@ public class AtomEffect extends Effect {
     /**
      * ParticleType of the nucleus
      */
-    public Particle particleNucleus = Particle.DRIP_WATER;
+    public Particle particleNucleus = Particle.DRIPPING_WATER;
     public Color colorNucleus = null;
 
     /**
      * ParticleType of orbitals
      */
-    public Particle particleOrbital = Particle.DRIP_LAVA;
+    public Particle particleOrbital = Particle.DRIPPING_LAVA;
     public Color colorOrbital = null;
 
     /**

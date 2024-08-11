@@ -37,7 +37,7 @@ public class WarpEffect extends Effect {
     public WarpEffect(EffectManager effectManager) {
         super(effectManager);
         type = EffectType.REPEATING;
-        particle = Particle.FIREWORKS_SPARK;
+        particle = Particle.FIREWORK;
         period = 2;
         iterations = rings;
     }

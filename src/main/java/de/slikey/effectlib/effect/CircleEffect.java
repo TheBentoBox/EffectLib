@@ -81,7 +81,7 @@ public class CircleEffect extends Effect {
     public CircleEffect(EffectManager effectManager) {
         super(effectManager);
         type = EffectType.REPEATING;
-        particle = Particle.VILLAGER_HAPPY;
+        particle = Particle.HAPPY_VILLAGER;
         period = 2;
         iterations = 50;
     }

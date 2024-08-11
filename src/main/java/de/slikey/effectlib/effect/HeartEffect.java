@@ -48,7 +48,7 @@ public class HeartEffect extends Effect {
 
     public HeartEffect(EffectManager effectManager) {
         super(effectManager);
-        particle = Particle.CRIT_MAGIC;
+        particle = Particle.ENCHANTED_HIT;
     }
 
     @Override
